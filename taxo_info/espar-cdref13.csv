@@ -1,0 +1,194 @@
+﻿// espar;lib_espar;cd_ref;lib_cdref
+61;Sapin pectiné;79319;Abies alba
+29MI;Mimosa;128357;Vachellia farnesiana
+21C;Érable champêtre;79734;Acer campestre
+21M;Érable de Montpellier;79763;Acer monspessulanum
+29EN;Érable negundo;79766;Acer negundo
+21O;Érable à feuilles d'obier;130715;Acer opalus subsp. opalus
+15P;Érable plane;79779;Acer platanoides
+15S;Érable sycomore;79783;Acer pseudoplatanus
+29MA;Marronnier d'Inde;80334;Aesculus hippocastanum
+29AI;Ailante;80824;Ailanthus altissima
+13C;Aulne de Corse;81567;Alnus cordata
+13G;Aulne glutineux;81569;Alnus glutinosa
+13B;Aulne blanc;131230;Alnus incana subsp. incana
+37;Aulne vert;131226;Alnus alnobetula subsp. alnobetula
+40;Arbousier;83481;Arbutus unedo
+12P;Bouleau pubescent;85904;Betula pubescens
+12V;Bouleau verruqueux;85903;Betula pendula
+49MC;Mûrier de Chine;86817;Broussonetia papyrifera
+49BS;Buis;87143;Buxus sempervirens
+11;Charme;89200;Carpinus betulus
+10;Châtaignier;89304;Castanea sativa
+29CT;Catalpa;89323;Catalpa bignonioides
+16;Micocoulier;89468;Celtis australis
+29CA;Caroubier;447038;Ceratonia siliqua
+49CS;Arbre de Judée;90234;Cercis siliquastrum
+49CA;Oranger;91803;Citrus aurantium
+49CM;Cédratier;91811;Citrus medica
+49CN;Mandarinier;91812;Citrus reticulata
+39;Cornouiller mâle;92497;Cornus mas
+31;Noisetier coudrier;92606;Corylus avellana
+49AA;Aubépine azérolier;92824;Crataegus azarolus
+49AM;Aubépine monogyne;92876;Crataegus monogyna
+49AE;Aubépine épineuse;92864;Crataegus laevigata
+66;Cyprès de Provence;93590;Cupressus sempervirens
+49C;Cognassier;93734;Cydonia oblonga
+49KK;Kaki;95047;Diospyros kaki
+29PL;Plaqueminier;95048;Diospyros lotus
+49OB;Olivier de Bohême;95831;Elaeagnus angustifolia
+49EA;Bruyère arborescente;96659;Erica arborea
+49EV;Fusain d'Europe;609982;Euonymus europaeus
+9;Hêtre;97947;Fagus sylvatica
+23F;Figuier de Carie;98653;Ficus carica
+29FA;Frêne d'Amérique;98909;Fraxinus americana
+17C;Frêne commun;98921;Fraxinus excelsior
+17F;Frêne à fleur;134718;Fraxinus ornus subsp. ornus
+17O;Frêne oxyphylle;134708;Fraxinus angustifolia subsp. angustifolia
+49IA;Houx;103514;Ilex aquifolium
+27C;Noyer commun;104076;Juglans regia
+69JC;Genévrier commun;136969;Juniperus communis subsp. communis
+69JO;Genévrier oxycèdre;136979;Juniperus oxycedrus subsp. oxycedrus
+69;Genévrier thurifère;104419;Juniperus thurifera
+38AU;Cytise aubour;104716;Laburnum anagyroides
+38AL;Cytise des alpes;104715;Laburnum alpinum
+63;Mélèze d'Europe;137099;Larix decidua subsp. decidua
+49LN;Laurier noble;105295;Laurus nobilis
+42;Tulipier de Virginie;106365;Liriodendron tulipifera
+49MB;Mûrier blanc;108810;Morus alba
+49MN;Mûrier noir;108822;Morus nigra
+28;Olivier d'Europe;154447;Olea europaea var. sylvestris
+32;Charme houblon;111837;Ostrya carpinifolia
+29PT;Paulownia;112560;Paulownia tomentosa
+49FA;Filaire à feuilles étroites;113142;Phillyrea angustifolia
+49FL;Filaire à feuilles larges;113148;Phillyrea latifolia
+62;Épicéa commun;138781;Picea abies subsp. abies
+59;Pin cembro;113651;Pinus cembra
+57A;Pin d'Alep;113665;Pinus halepensis
+53CO;Pin laricio de Corse;613563;Pinus nigra var. corsicana
+58;Pin à crochets;138840;Pinus mugo subsp. uncinata
+51;Pin maritime;138850;Pinus pinaster subsp. pinaster
+55;Pin parasol;113690;Pinus pinea
+52;Pin sylvestre;113703;Pinus sylvestris
+56;Pin Weymouth;113702;Pinus strobus
+23PA;Poirier à feuilles d'amandier;116610;Pyrus spinosa
+23PC;Poirier commun;139545;Pyrus communis subsp. pyraster
+23PM;Pommier sauvage;107217;Malus sylvestris
+49PN;Poirier neigeux;116594;Pyrus nivalis
+49PL;Pistachier lentisque;113744;Pistacia lentiscus
+49PT;Pistachier térébinthe;113748;Pistacia terebinthus
+29PV;Pistachier vrai;113750;Pistacia vera
+26E;Platane à feuilles d'érable;114024;Platanus x hispanica
+26OC;Platane d'Occident;717428;Platanus occidentalis
+26OR;Platane d'Orient;114028;Platanus orientalis
+33B;Peuplier blanc;115110;Populus alba
+33G;Peuplier grisard;115168;Populus x canescens
+33N;Peuplier noir;139169;Populus nigra subsp. betulifolia
+24;Tremble;115156;Populus tremula
+23A;Amandier;116068;Prunus dulcis
+49PA;Abricotier;116041;Prunus armeniaca
+22M;Merisier;116043;Prunus avium
+49PB;Prunier de Briançon;116050;Prunus brigantina
+49PC;Prune-cerise;116053;Prunus cerasifera
+22C;Cerisier;116054;Prunus cerasus
+23PD;Prunier domestique;116067;Prunus domestica
+49PM;Cerisier de Sainte Lucie;116096;Prunus mahaleb
+22G;Cerisier à grappes;139444;Prunus padus var. padus
+22S;Cerisier tardif;116137;Prunus serotina
+49PS;Prunelier;116142;Prunus spinosa
+34;Chêne chevelu;116670;Quercus cerris
+29CE;Chêne écarlate;159897;Quercus coccinea
+6;Chêne vert;116704;Quercus ilex
+5;Chêne pubescent;116751;Quercus pubescens
+29CM;Chêne des marais;116740;Quercus palustris
+2;Chêne pédonculé;139596;Quercus robur var. robur
+08P;Chêne faux-liège;116677;Quercus crenata
+4;Chêne rouge;116762;Quercus rubra
+3;Chêne sessile;139584;Quercus petraea subsp. petraea
+08S;Chêne-liège;116774;Quercus suber
+7;Chêne tauzin;116754;Quercus pyrenaica
+49RA;Nerprun alaterne;117526;Rhamnus alaternus
+49RP;Nerprun des Alpes;117528;Rhamnus alpina
+49RC;Nerprun purgatif;117530;Rhamnus cathartica
+49BO;Bourdaine;788967;Frangula alnus subsp. alnus
+49RT;Sumac de Virginie;117723;Rhus typhina
+49VV;Vernis vrai;160246;Rhus vernicifera
+14;Robinier faux acacia;117860;Robinia pseudoacacia
+25B;Saule blanc;119915;Salix alba
+25M;Saule marsault;119977;Salix caprea
+25C;Saule cendré;119991;Salix cinerea
+25FD;Saule faux daphné;120009;Salix daphnoides
+25FR;Saule cassant;120040;Salix fragilis
+25D;Saule drapé;140449;Salix eleagnos subsp. eleagnos
+25P;Saule pédicellé;120161;Salix pedicellata
+2500000;Saule à cinq étamines;120163;Salix pentandra
+25XR;Saule rouge;120512;Salix x rubens
+25000;Saule à trois étamines;120246;Salix triandra
+25V;Saule des vanniers;120260;Salix viminalis
+49SN;Sureau noir;120717;Sambucus nigra
+49SR;Sureau rouge;140539;Sambucus racemosa subsp. racemosa
+23AB;Alisier blanc;124306;Sorbus aria
+23SO;Sorbier des oiseleurs;141317;Sorbus aucuparia subsp. aucuparia
+23C;Cormier;124319;Sorbus domestica
+23SF;Sorbier de Finlande;611482;Sorbus legrei
+23AF;Alisier de Fontainebleau;124325;Sorbus latifolia
+23AM;Alisier de Mougeot;124329;Sorbus mougeotii
+23SS;Sorbier de Suède;124362;Sorbus intermedia
+41;Alisier torminal;124346;Sorbus torminalis
+49TF;Tamaris d'Afrique;125412;Tamarix africana
+49TG;Tamaris de France;125426;Tamarix gallica
+67;If;125816;Taxus baccata
+68TC;Thuya du Canada;126449;Thuja occidentalis
+29TA;Tilleul d'Amérique du Nord;160932;Tilia americana
+20P;Tilleul à petites feuilles;126628;Tilia cordata
+29TX;Tilleul vert;126667;Tilia x euchlora
+20G;Tilleul à grandes feuilles;141768;Tilia platyphyllos subsp. platyphyllos
+29TT;Tilleul argenté;126662;Tilia tomentosa
+20X;Tilleul de Hollande;161014;Tilia x europaea
+49OO;Oranger des Osages;107130;Maclura pomifera
+18C;Orme champêtre;128175;Ulmus minor
+18D;Orme lisse;128171;Ulmus laevis
+18M;Orme de montagne;142029;Ulmus glabra f. glabra
+68CM;Cyprès de Lambert;93585;Cupressus macrocarpa
+65;Cèdre de l'Atlas;89452;Cedrus atlantica
+68CB;Cèdre de Chypre;621117;Cedrus libani var. brevifolia
+76;Cèdre du Liban;89455;Cedrus libani
+68CH;Cèdre de l'Himalaya;89454;Cedrus deodara
+54;Pin noir d'Autriche;138843;Pinus nigra subsp. nigra
+53CA;Pin laricio de Calabre;613561;Pinus nigra var. calabrica
+53S;Pin de Salzmann;138844;Pinus nigra subsp. salzmannii
+68PM;Pin de Monterey;113696;Pinus radiata
+64;Douglas;116216;Pseudotsuga menziesii
+68CA;Cyprès de l'Arizona;93570;Cupressus arizonica
+71;Sapin de Nordmann;79345;Abies nordmanniana
+70SE;Sapin d'Andalousie;79349;Abies pinsapo
+72V;Sapin de Vancouver;79333;Abies grandis
+73;Épicéa de Sitka;113444;Picea sitchensis
+68EO;Épicéa omorika;113439;Picea omorika
+74J;Mélèze du Japon;105044;Larix kaempferi
+68TG;Thuya géant;126451;Thuja plicata
+68CL;Cyprès de Lawson;90411;Chamaecyparis lawsoniana
+70SC;Sapin de Céphalonie;79325;Abies cephalonica
+57B;Pin brutia (ou) eldarica;162292;Pinus brutia
+70SB;Sapin de Turquie;79323;Abies bornmuelleriana
+68SC;Sapin du Colorado;79327;Abies concolor
+68SI;Sapin de Cilicie;717025;Abies cilicica
+27N;Noyer noir;104074;Juglans nigra
+29LI;Liquidambar;106361;Liquidambar styraciflua
+68PC;Pin de Murray;458773;Pinus contorta
+68SV;Séquoia toujours vert;122785;Sequoia sempervirens
+68SG;Séquoia géant;122788;Sequoiadendron giganteum
+68CC;Cyprès chauve;125811;Taxodium distichum
+68TH;Tsuga heterophylla;127896;Tsuga heterophylla
+68CJ;Cryptomère du Japon;93471;Cryptomeria japonica
+23PF;Poirier à feuilles en cur;116576;Pyrus cordata
+25R;Saule roux;119948;Salix atrocinerea
+29FI;Filao;89308;Casuarina cunninghamiana
+60;Pin mugo;113682;Pinus mugo
+68TS;Tsuga du Canada;159899;Tsuga canadensis
+77;Pin à l'encens et hybrides;446381;Pinus taeda
+72N;Sapin noble;79350;Abies procera
+74H;Mélèze hybride;105050;Larix x marschlinsii
+19;Peuplier cultivé;196579;Populus
+36;Eucalyptus (genre);192361;Eucalyptus
+49TA;Tamaris de France;125426;Tamarix gallica
