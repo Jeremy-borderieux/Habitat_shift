@@ -27,6 +27,7 @@ flore_new_nfi<-data.table(read.table(unz(file.path("NFI_data","raw_data","data_N
 
 flore_new_nfi[,X:=NULL]
 flore_new_nfi[,CANOPY:="non"]
+flore_new_nfi[,SOURCE:="Donnees_floristique"]
 
 final_tax_ref_pm<-fread(file.path("taxo_info","TaxRef_v13_PM.csv"))
 
@@ -39,15 +40,14 @@ flore_new_nfi[CAMPAGNE%in%c(2005,2006) & CD_REF%in% espar_cd_ref$cd_ref,CANOPY:=
 
 
 arbres<-data.table(read.table(unz(file.path("NFI_data","raw_data","data_NFI.zip"), "ARBRE.csv"),  sep = ";", header = T, stringsAsFactors = F))
-arbres_unique<-arbres[,.N,by=.(IDP,ESPAR)]
+arbres_unique<-arbres[,.N,by=.(CAMPAGNE,IDP,ESPAR)]
 arbres_unique<-merge(arbres_unique,espar_cd_ref,by.x="ESPAR",by.y="espar")
-arbres_unique[,CAMPAGNE:=NA]
 arbres_unique[,ABOND:=1]
 arbres_unique[,CD_REF:=cd_ref]
 arbres_unique[,CANOPY:="oui"]
+arbres_unique[,SOURCE:="Donnees_arbres"]
 
-
-arbres_unique<-arbres_unique[,c("CAMPAGNE","IDP","CD_REF","ABOND","CANOPY")]
+arbres_unique<-arbres_unique[,c("CAMPAGNE","IDP","CD_REF","ABOND","CANOPY","SOURCE")]
 
 
 plot_with_arbre<-arbres_unique[,unique(IDP)]
@@ -71,16 +71,28 @@ NR_trees[,P1525:=NULL]
 NR_trees[,P7ARES:=NULL]
 NR_trees[,X:=NULL]
 
-NR_trees<-NR_trees[IDP %in% plot_without_arbre,]
+
 NR_trees<-merge(NR_trees,espar_cd_ref,by.x="ESPAR_C",by.y="espar")
 NR_trees[,CD_REF:=cd_ref]
 NR_trees[,ABOND:=1]
 
-NR_trees<-NR_trees[,c("CAMPAGNE","IDP","CD_REF","ABOND","CANOPY")]
+
+
+R_trees<-NR_trees[IDP %in% plot_without_arbre & CANOPY=="oui",]
+R_trees[,SOURCE:= "Donnees_couvert_R_25m"]
+
+R_trees<-R_trees[,c("CAMPAGNE","IDP","CD_REF","ABOND","CANOPY","SOURCE")]
+
+flore_new_nfi<-rbind(flore_new_nfi,R_trees)
+
+NR_trees<-NR_trees[CANOPY=="non",]
+NR_trees[,SOURCE:= "Donnees_couvert_NR_15m"]
+NR_trees<-NR_trees[,c("CAMPAGNE","IDP","CD_REF","ABOND","CANOPY","SOURCE")]
 
 flore_new_nfi<-rbind(flore_new_nfi,NR_trees)
 
-flore_new_nfi<-flore_new_nfi[order(  IDP),,]
+
+flore_new_nfi<-flore_new_nfi[order(IDP),,]
 
 
 flore_new_nfi[,cd_ref_bis:=final_tax_ref_pm$cd_ref_bis[match(flore_new_nfi$CD_REF,final_tax_ref_pm$CD_NOM)]]
@@ -92,10 +104,10 @@ flore_new_nfi[,nom_final:=final_tax_ref_pm$LB_NOM[match(flore_new_nfi$cd_ref_fin
 flore_new_nfi[,nom_final_2:=final_tax_ref_pm$LB_NOM[match(flore_new_nfi$CD_REF,final_tax_ref_pm$CD_NOM)]  ]
 
 
-flore_new_nfi[,tree:=ifelse(str_extract_all(nom_final,"^[:alpha:]+",T)%in%traitarbres$Genre,1,0)]
+#flore_new_nfi[,tree:=ifelse(str_extract_all(nom_final,"^[:alpha:]+",T)%in%traitarbres$Genre,1,0)]
 
 flore_new_nfi[,duplicated := duplicated(CD_REF),by=IDP ]
-
+colnames(flore_new_nfi)[1:6]<-c("campagne","idp","cd_ref","abund","canopy","source")
 
 write.table(flore_new_nfi,file.path("harmonized_flora","harmonized_NFI_survey_2005_2022.csv"),sep=";",row.names = T)
 saveRDS(flore_new_nfi,file.path("harmonized_flora","harmonized_NFI_survey_2005_2022.RData"))

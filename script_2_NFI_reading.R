@@ -11,9 +11,6 @@ source(file.path("Functions.R"))
 get_NFI() # type 1
 
 NFI_flora<-readRDS(file.path("harmonized_flora","harmonized_NFI_survey_2005_2022.RData"))
-colnames(NFI_flora)[1:5]<-c("campagne","idp","cd_ref","abund","canopy")
-
-
 
 ## script from article_themo_beta_part
 colnames(NFI_plot_info)[1]<-"campagne"
