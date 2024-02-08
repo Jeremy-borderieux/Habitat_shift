@@ -12,6 +12,9 @@ get_NFI() # type 1
 
 NFI_flora<-readRDS(file.path("harmonized_flora","harmonized_NFI_survey_2005_2022.RData"))
 
+# line to remove duplicated species, run depending on your question and if you need trees, canopy trees, or understory trees etc...
+NFI_flora<-NFI_flora[duplicated==FALSE,]
+
 ## script from article_themo_beta_part
 colnames(NFI_plot_info)[1]<-"campagne"
 
